@@ -23,9 +23,11 @@ fitted_y_data = log_reg(x_data, opt[0], opt[1])
 plt.style.use("fivethirtyeight")
 
 plt.semilogy(dataframe[date], dataframe[value], linewidth=0.7)
-plt.plot(dataframe[date], np.exp(fitted_y_data + (-1.4)), color='g', linewidth=0.7)
-plt.plot(dataframe[date], np.exp(fitted_y_data), color='y', linewidth=0.7)
-plt.plot(dataframe[date], np.exp(fitted_y_data + 1.4), color='r', linewidth=0.7)
+
+num = -2
+for col in ['tab:purple','tab:blue','tab:green','y','tab:orange','tab:red']:
+    plt.plot(dataframe[date], np.exp(fitted_y_data + num), color=col, linewidth=0.7)
+    num += 0.87
 
 plt.ylim(bottom = 1)
 plt.show()
