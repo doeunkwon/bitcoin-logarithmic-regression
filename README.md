@@ -8,4 +8,3 @@
 - It goes from purple to blue to green
 - The pattern suggests that the next accumulation log curve is yellow (20k - 30k)
 - The bubble curve is consistently orange, though every cycle we creep towards red
-- Growth appears to be slowing down
