@@ -19,3 +19,4 @@
 - Red = bubble level
 - Yellow = breakout level
 - Green = accumulation level
+- 40K seems to be important
