@@ -9,3 +9,4 @@
 - It goes from purple to blue to green
 - The pattern suggests that the next accumulation log curve is yellow (20k - 30k)
 - The bubble curve is consistently orange, though every cycle we creep towards red
+- If alts still track BTC, then the graph seems to suggest an upcoming bear market
